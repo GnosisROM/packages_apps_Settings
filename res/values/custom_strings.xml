@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020 The Gnosis Project
+     Copyright (C) 2021 The Gnosis Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,6 +15,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Advanced Reboot -->
+    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
+    <string name="powermenu_advanced_reboot_summary">When enabled, reboot item will bring you a dialog to chose to reboot: normally, into recovery, bootloader or systemui</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Clear usage data?</string>
