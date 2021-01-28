@@ -1328,6 +1328,7 @@
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"System updates"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
     <string name="firmware_version" msgid="1606901586501447275">"Android version"</string>
+    <string name="custom_firmware_version">"ProtonAOSP version"</string>
     <string name="security_patch" msgid="4071756145347865382">"Android security update"</string>
     <string name="model_info" msgid="8997566254717810904">"Model"</string>
     <string name="hardware_info" msgid="7035211991066637019">"Model and hardware"</string>
@@ -4106,7 +4107,7 @@
     <string name="memory_usage" msgid="5594133403819880617">"Memory usage"</string>
     <string name="app_list_memory_use" msgid="3178720339027577869">"App usage"</string>
     <string name="memory_details" msgid="6133226869214421347">"Details"</string>
-    <string name="memory_use_summary" msgid="3915964794146424142">"<xliff:g id="SIZE">%1$s</xliff:g> avg memory used in last 3 hours"</string>
+    <string name="memory_use_summary" msgid="3915964794146424142">"<xliff:g id="SIZE">%1$s</xliff:g> average memory used in last 3 hours"</string>
     <string name="no_memory_use_summary" msgid="6708111974923274436">"No memory used in last 3 hours"</string>
     <string name="sort_avg_use" msgid="4416841047669186903">"Sort by avg. use"</string>
     <string name="sort_max_use" msgid="3370552820889448484">"Sort by max. use"</string>
