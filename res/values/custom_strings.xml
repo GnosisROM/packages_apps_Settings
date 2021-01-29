@@ -47,4 +47,13 @@
     <string name="status_bar_logo_left">Left</string>
     <string name="status_bar_logo_disabled">Disabled</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+    <string-array name="unlock_quick_unlock_control_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
 </resources>
