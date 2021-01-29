@@ -25,4 +25,26 @@
     <string name="battery_stats_message">Battery usage data will be lost</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
 
+
+    <string-array name="status_bar_logo_entries" translatable="false">
+        <item>@string/status_bar_logo_disabled</item>
+        <item>@string/status_bar_logo_left</item>
+        <item>@string/status_bar_logo_right</item>
+    </string-array>
+
+    <string-array name="status_bar_logo_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="show_logo">Logo location</string>
+    <string name="status_bar_logo_title">ROM logo</string>
+    <string name="status_bar_logo_summary">Show logo in statusbar</string>
+    <string name="status_bar_logo_position">Logo location</string>
+    <string name="status_bar_logo_position_summary">Choose which side to display the logo on, left or right</string>
+    <string name="status_bar_logo_right">Right</string>
+    <string name="status_bar_logo_left">Left</string>
+    <string name="status_bar_logo_disabled">Disabled</string>
+
 </resources>
