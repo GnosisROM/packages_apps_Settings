@@ -65,4 +65,14 @@
             android:title="@string/date_time_24hour" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="custom_clock_options_cat"
+        android:title="@string/custom_clock_options_cat_title"
+        settings:keywords="@string/keywords_time_format">
+        <Preference
+            android:key="clock_date_settings"
+            android:title="@string/clock_date_settings_title"
+            android:fragment="com.android.settings.datetime.ClockDateSettings"/>
+    </PreferenceCategory>
+
 </PreferenceScreen>
