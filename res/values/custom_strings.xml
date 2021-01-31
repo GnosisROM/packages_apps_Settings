@@ -94,4 +94,9 @@
     <string name="qs_battery_percentage_title">QS battery percentage</string>
     <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 
+    <!-- Gesture Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+
 </resources>
