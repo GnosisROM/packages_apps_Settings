@@ -138,12 +138,13 @@
 
     <com.android.settings.gnosis.SystemSettingListPreference
         android:key="status_bar_logo"
+        android:icon="@drawable/ic_settings_logo"
         android:title="@string/status_bar_logo_title"
         android:summary="@string/status_bar_logo_summary"
         android:dialogTitle="@string/show_logo"
         android:entries="@array/status_bar_logo_entries"
         android:entryValues="@array/status_bar_logo_values"
-        android:defaultValue="1" />
+        android:defaultValue="0" />
 
     <PreferenceCategory
         android:key="debug_debugging_category"
