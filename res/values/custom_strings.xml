@@ -42,7 +42,7 @@
     <!-- Status bar clock options -->
     <string name="custom_clock_options_cat_title">Clock appearance</string>
     <string name="clock_date_settings_title">Statusbar clock</string>
-    <string name="status_bar_clock">Clock and Date</string>
+    <string name="status_bar_clock">Date &amp; time</string>
     <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
     <string name="clock_title_enable">Alignment</string>
     <string name="clock_enabled">Enabled</string>
@@ -80,7 +80,7 @@
     <string name="status_bar_clock_hide_on_home_summary">Hide clock when Home is showing</string>
 
     <!-- Battery Styles -->
-    <string name="battery_percent_title">Battery Styles</string>
+    <string name="battery_percent_title">Battery styles</string>
     <string name="battery_percent_summary">Configure battery icon and percentage styles</string>
     <string name="status_bar_battery_style_title">Battery icon</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
@@ -100,5 +100,9 @@
     <string name="navbar_length">Gesture bar length</string>
     <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
+
+    <!-- Customizations -->
+    <string name="gnosis_title">Customization</string>
+    <string name="gnosis_summary">Statusbar, navigation, theme  </string>
 
 </resources>

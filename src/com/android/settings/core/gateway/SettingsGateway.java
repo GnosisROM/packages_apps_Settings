@@ -81,6 +81,7 @@ import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings;
 import com.android.settings.deviceinfo.legal.ModuleLicensesDashboard;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.darkmode.DarkModeSettingsFragment;
+import com.android.settings.gnosis.GnosisSettings;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
 import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
@@ -189,6 +190,7 @@ public class SettingsGateway {
             UserDictionaryList.class.getName(),
             UserDictionarySettings.class.getName(),
             DisplaySettings.class.getName(),
+            GnosisSettings.class.getName(),
             MyDeviceInfoFragment.class.getName(),
             ModuleLicensesDashboard.class.getName(),
             ManageApplications.class.getName(),
@@ -316,6 +318,7 @@ public class SettingsGateway {
             Settings.ConnectedDeviceDashboardActivity.class.getName(),
             Settings.AppAndNotificationDashboardActivity.class.getName(),
             Settings.DisplaySettingsActivity.class.getName(),
+            Settings.GnosisSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
             Settings.StorageDashboardActivity.class.getName(),
             Settings.PowerUsageSummaryActivity.class.getName(),
