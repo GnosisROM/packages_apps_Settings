@@ -41,8 +41,8 @@
 
     <!-- Status bar clock options -->
     <string name="custom_clock_options_cat_title">Clock appearance</string>
-    <string name="clock_date_settings_title">Statusbar clock</string>
-    <string name="status_bar_clock">Date &amp; time</string>
+    <string name="clock_date_settings_title">Clock &amp; date</string>
+    <string name="status_bar_clock">Clock &amp; date</string>
     <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
     <string name="clock_title_enable">Alignment</string>
     <string name="clock_enabled">Enabled</string>

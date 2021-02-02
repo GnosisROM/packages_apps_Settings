@@ -206,6 +206,7 @@
     <!-- SELinux -->
     <Preference
         android:key="selinux_status"
+        android:order="54"
         android:title="@string/selinux_status"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="false"
