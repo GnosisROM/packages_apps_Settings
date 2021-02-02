@@ -18,6 +18,7 @@ package com.android.settings.dashboard;
 
 import android.util.ArrayMap;
 
+import com.android.settings.gnosis.GnosisSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.LegalSettings;
 import com.android.settings.accounts.AccountDashboardFragment;
@@ -79,6 +80,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_APPS);
         PARENT_TO_CATEGORY_KEY_MAP.put(PowerUsageSummary.class.getName(),
                 CategoryKey.CATEGORY_BATTERY);
+        PARENT_TO_CATEGORY_KEY_MAP.put(DisplaySettings.class.getName(),
+                CategoryKey.CATEGORY_GNOSIS);
         PARENT_TO_CATEGORY_KEY_MAP.put(DisplaySettings.class.getName(),
                 CategoryKey.CATEGORY_DISPLAY);
         PARENT_TO_CATEGORY_KEY_MAP.put(SoundSettings.class.getName(),
