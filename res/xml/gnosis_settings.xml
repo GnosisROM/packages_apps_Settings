@@ -50,6 +50,27 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="lockscreen_settings"
+        android:title="Lockscreen">
+
+	<com.android.settings.gnosis.SystemSettingSwitchPreference
+        android:key="lockscreen_media_metadata"
+        android:title="@string/lockscreen_media_art_title"
+        android:summary="@string/lockscreen_media_art_summary"
+        android:defaultValue="false" />
+
+         <com.android.settings.gnosis.CustomSystemSeekBarPreference
+            android:key="lockscreen_media_blur"
+            android:title="@string/lockscreen_media_blur_title"
+            settings:allowEditText="true"
+            android:max="2500"
+            android:min="1"
+            android:defaultValue="2500"
+            settings:units="dp" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="navigation_settings"
         android:title="Navigation">
 
@@ -88,19 +109,6 @@
         settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.display.WallpaperPreferenceController">
     </com.android.settingslib.RestrictedPreference>
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="other_settings"
-        android:title="Other">
-
-	<com.android.settings.gnosis.SystemSettingSwitchPreference
-        android:key="lockscreen_media_metadata"
-        android:title="@string/lockscreen_media_art_title"
-        android:summary="@string/lockscreen_media_art_summary"
-        android:defaultValue="false" />
-
 
     </PreferenceCategory>
 

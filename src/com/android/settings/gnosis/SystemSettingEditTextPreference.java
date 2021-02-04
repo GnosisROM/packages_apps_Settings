@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 The Gnosis Project
+ * Copyright (C) 2017 AICP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,10 +17,9 @@
 package com.android.settings.gnosis;
 
 import android.content.Context;
+import androidx.preference.EditTextPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-
-import androidx.preference.EditTextPreference;
 
 public class SystemSettingEditTextPreference extends EditTextPreference {
     private boolean mAutoSummary = false;
