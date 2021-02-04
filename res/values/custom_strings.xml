@@ -116,4 +116,8 @@
     <string name="build_id">Build id</string>
     <string name="vendor_security_patch">Vendor security update</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Display media cover art</string>
+    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+
 </resources>
