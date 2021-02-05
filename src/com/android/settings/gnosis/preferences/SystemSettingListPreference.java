@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.settings.gnosis;
+package com.android.settings.gnosis.preferences;
 
 import android.content.Context;
+import androidx.preference.ListPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-
-import androidx.preference.ListPreference;
+import android.provider.Settings;
 
 public class SystemSettingListPreference extends ListPreference {
     private boolean mAutoSummary = false;
@@ -66,6 +66,4 @@ public class SystemSettingListPreference extends ListPreference {
         // Instead, we better do
         setValue(restoreValue ? getPersistedString((String) defaultValue) : (String) defaultValue);
     }
-
 }
-

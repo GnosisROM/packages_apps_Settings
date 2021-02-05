@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2017 The Dirty Unicorns Project
+ * Copyright (C) 2021 The Gnosis Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.android.settings.gnosis;
+package com.android.settings.gnosis.preferences;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -33,7 +33,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.preference.*;
 
-import com.abc.support.R;
+import com.android.settings.R;
 
 public class CustomSeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener {
     private final String TAG = getClass().getName();

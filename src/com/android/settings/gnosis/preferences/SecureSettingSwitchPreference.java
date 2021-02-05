@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.gnosis;
+package com.android.settings.gnosis.preferences;
 
 import android.content.Context;
 import android.provider.Settings;

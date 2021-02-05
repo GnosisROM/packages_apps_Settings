@@ -37,7 +37,7 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.android.settings.gnosis.custom.ClockDateSettings"/>
 
-        <com.android.settings.gnosis.SystemSettingListPreference
+        <com.android.settings.gnosis.preferences.SystemSettingListPreference
             android:key="status_bar_logo"
             android:icon="@drawable/ic_settings_logo"
             android:title="@string/status_bar_logo_title"
@@ -53,20 +53,20 @@
         android:key="lockscreen_settings"
         android:title="Lockscreen">
 
-	<com.android.settings.gnosis.SystemSettingSwitchPreference
+	<com.android.settings.gnosis.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_media_metadata"
         android:title="@string/lockscreen_media_art_title"
         android:summary="@string/lockscreen_media_art_summary"
         android:defaultValue="false" />
 
-         <com.android.settings.gnosis.CustomSystemSeekBarPreference
+         <!--com.android.settings.gnosis.preferences.CustomSystemSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
             settings:allowEditText="true"
             android:max="2500"
             android:min="1"
             android:defaultValue="2500"
-            settings:units="dp" />
+            settings:units="dp" /-->
 
     </PreferenceCategory>
 

@@ -31,7 +31,7 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.security.trustagent.TrustAgentManager;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-import com.android.settings.gnosis.SystemSettingSwitchPreference;
+import com.android.settings.gnosis.preferences.SystemSettingSwitchPreference;
 
 public class QuickUnlockPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {

@@ -110,7 +110,7 @@
             android:title="@string/color_temperature"
             android:summary="@string/color_temperature_desc" />
 
-        <com.android.settings.gnosis.SystemSettingSwitchPreference
+        <com.android.settings.gnosis.preferences.SystemSettingSwitchPreference
             android:key="advanced_reboot"
             android:title="@string/powermenu_advanced_reboot_title"
             android:summary="@string/powermenu_advanced_reboot_summary"

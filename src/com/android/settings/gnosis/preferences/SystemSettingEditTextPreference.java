@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2021 The Gnosis Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.gnosis;
+package com.android.settings.gnosis.preferences;
 
 import android.content.Context;
 import androidx.preference.EditTextPreference;
