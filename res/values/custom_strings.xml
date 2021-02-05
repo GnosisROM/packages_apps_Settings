@@ -142,4 +142,12 @@
     <string name="seek_value_edit_label">Set value</string>
     <string name="ok">OK</string>
 
+    <!-- Navbar layout options -->
+    <string name="navbar_layout_title">Layout</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_leftleaning">Left-leaning</string>
+    <string name="navbar_layout_rightleaning">Right-leaning</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
+
 </resources>

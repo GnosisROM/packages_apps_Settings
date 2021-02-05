@@ -25,7 +25,7 @@
             android:defaultValue="true" />
 
 
-        <com.android.settings.gnosis.SecureSettingSwitchPreference
+        <com.android.settings.gnosis.preferences.SecureSettingSwitchPreference
             android:key="statusbar_clock_hidden_by_home"
             android:title="@string/status_bar_clock_hide_on_home_title"
             android:summary="@string/status_bar_clock_hide_on_home_summary"

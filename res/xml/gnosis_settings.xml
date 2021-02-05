@@ -53,7 +53,7 @@
         android:key="lockscreen_settings"
         android:title="Lockscreen">
 
-	<com.android.settings.gnosis.preferences.SystemSettingSwitchPreference
+	<com.android.settings.gnosis.preferences.SecureSettingSwitchPreference
         android:key="lockscreen_media_metadata"
         android:title="@string/lockscreen_media_art_title"
         android:summary="@string/lockscreen_media_art_summary"
@@ -81,6 +81,19 @@
             android:title="@string/system_navigation_title"
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"/>
+
+        <com.android.settings.gnosis.preferences.SecureSettingSwitchPreference
+            android:key="navbar_inverse_layout"
+            android:title="@string/navbar_invert_layout_title"
+            android:defaultValue="false" />
+
+        <com.android.settings.gnosis.preferences.SecureSettingListPreference
+            android:key="navbar_layout_views"
+            android:title="@string/navbar_layout_title"
+            android:summary="%s"
+            android:entries="@array/navbar_layout_entries"
+            android:entryValues="@array/navbar_layout_values"
+            android:defaultValue="default" />
 
     </PreferenceCategory>
 
