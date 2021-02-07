@@ -28,7 +28,7 @@
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
     <!-- available in pin/password -->
-    <com.android.settings.gnosis.SystemSettingSwitchPreference
+    <com.android.settings.gnosis.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_quick_unlock_control"
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary"
