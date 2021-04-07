@@ -54,14 +54,15 @@
         android:summary="@string/lockscreen_media_art_summary"
         android:defaultValue="false" />
 
-         <!--com.android.settings.gnosis.preferences.CustomSystemSeekBarPreference
+         <com.android.settings.gnosis.preferences.CustomSystemSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
+            android:dependency="lockscreen_media_metadata"
             settings:allowEditText="true"
-            android:max="2500"
-            android:min="1"
-            android:defaultValue="2500"
-            settings:units="dp" /-->
+            android:max="25"
+            android:min="0"
+            android:defaultValue="25"
+            settings:units="dp" />
 
     </PreferenceCategory>
 
