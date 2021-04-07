@@ -37,16 +37,11 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.android.settings.gnosis.custom.ClockDateSettings"/>
 
-        <com.android.settings.gnosis.preferences.SystemSettingListPreference
+        <Preference
             android:key="status_bar_logo"
-            android:icon="@drawable/ic_settings_logo"
             android:title="@string/status_bar_logo_title"
             android:summary="@string/status_bar_logo_summary"
-            android:dialogTitle="@string/show_logo"
-            android:entries="@array/status_bar_logo_entries"
-            android:entryValues="@array/status_bar_logo_values"
-            android:defaultValue="0" />
-
+            android:fragment="com.android.settings.gnosis.custom.LogoSettings" />
     </PreferenceCategory>
 
     <PreferenceCategory

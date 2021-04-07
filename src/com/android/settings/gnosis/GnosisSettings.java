@@ -35,6 +35,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.EnableBlursPreferenceController;
 import com.android.settings.gnosis.custom.ClockDateSettings;
+import com.android.settings.gnosis.custom.LogoSettings;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
