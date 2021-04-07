@@ -32,7 +32,7 @@ import com.android.settings.core.BasePreferenceController;
 public class BuildIdPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "BuildId";
-    private static final String VERSION_PROPERTY = "ro.build.description";
+    private static final String VERSION_PROPERTY = "ro.build.id";
 
     private final PackageManager mPackageManager;
 
